@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Rimu Markup Viewer",
+  "version": "0.1",
+
+  "description": "Render Rimu Markup files (.rmu) in Chrome.",
+
+  "content_scripts": [
+    {
+      "matches": [
+        "file://*/*.rmu",
+        "http://*/*.rmu",
+        "https://*/*.rmu"
+      ],
+      "js": [
+        "js/rimu.min.js",
+        "js/main.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "css/rimu.css",
+    "css/bootstrap-combined-2.3.2.min.css"
+  ],
+  "permissions": [
+    "tabs",
+    "<all_urls>"
+  ]
+}
