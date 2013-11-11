@@ -1,9 +1,9 @@
 (function() {
 
+  // Convert Rimu source to HTML and put it into the current tab.
   function render() {
-    // Load Rimu source from tab URL.
     var xhr = new XMLHttpRequest();
-    xhr.onload = function() { // Run this function when source has been retrieved.
+    xhr.onload = function() { // Run this function when source has been successfully retrieved.
       // Add styling.
       addStylesheet('css/bootstrap-combined-2.3.2.min.css');
       addStylesheet('css/rimu.css');
@@ -11,6 +11,7 @@
       var html = Rimu.render(xhr.responseText);
       document.body.innerHTML = html;
     };
+    // Get Rimu source from the tab URL.
     xhr.open('GET', location.href, true);
     xhr.send();
   }
