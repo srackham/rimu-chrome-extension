@@ -1,9 +1,7 @@
-JS = js/main.js
-
 all: lint
 
 lint:
-	jshint $(JS)
+	jshint js/main.js
 	jsonlint --quiet manifest.json
 
 commit: lint
