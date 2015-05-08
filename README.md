@@ -18,8 +18,10 @@ in the Google Chrome web browser.
 2. Open Chrome and go to the Extensions page (`chrome://extensions/`).
 3. Tick the _Developer mode_ check-box.
 4. Press the _Load unpacked extension..._ button and select the local
-   repository directory created in step 1.
-5. Tick the _Allow access to file URLs_ check-box.
+   repository directory created in step 1 -- this adds the _Rimu
+   Markup Viewer_ to the Extensions.
+5. Tick the _Rimu Markup Viewer_ extension _Allow access to file URLs_
+   check-box.
 
 Now you will be able view any file or URL ending in `.rmu` as HTML in
 the browser.
