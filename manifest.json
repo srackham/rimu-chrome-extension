@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Rimu Markup Viewer",
-  "version": "0.1.1",
+  "version": "0.1.2",
 
   "description": "Render Rimu Markup files (.rmu) in Chrome.",
 
@@ -13,7 +13,7 @@
         "https://*/*.rmu"
       ],
       "js": [
-        "js/rimu-var.min.js",
+        "js/rimu.min.js",
         "js/main.js"
       ]
     }
