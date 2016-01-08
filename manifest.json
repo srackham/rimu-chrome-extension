@@ -10,7 +10,8 @@
       "matches": [
         "file://*/*.rmu",
         "http://*/*.rmu",
-        "https://*/*.rmu"
+        "https://*/*.rmu",
+        "file://*/*.md"
       ],
       "js": [
         "js/rimu.min.js",

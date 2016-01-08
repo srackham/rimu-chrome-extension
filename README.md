@@ -1,7 +1,8 @@
 # Rimu Markup Chrome Extension
 
 Renders Rimu Markup (<http://rimumarkup.org/>) source files (`.rmu`)
-in the Google Chrome web browser.
+in the Google Chrome web browser. In addition, file URIs with a Markdown
+(`.md`) extension (URIs like `file//*/*.md`) are also rendered using Rimu.
 
 ## Using the Viewer
 - The extension renders any file or http URL ending with `.rmu` as
@@ -23,5 +24,5 @@ in the Google Chrome web browser.
 5. Tick the _Rimu Markup Viewer_ extension _Allow access to file URLs_
    check-box.
 
-Now you will be able view any file or URL ending in `.rmu` as HTML in
-the browser.
+Now you will be able view file and URLs ending in `.rmu` and files ending in
+`.md` as HTML in the browser.
